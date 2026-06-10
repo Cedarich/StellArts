@@ -155,10 +155,10 @@ We use **Soroban** to handle trustless logic:
 - [x] Stellar payment integration (Testnet)
 - [x] Basic Review system
 
-### Phase 2: Smart Contract Hardening 🚧
-- [ ] Automated payment release flows
-- [ ] Dispute resolution mechanism (Arbitration)
-- [ ] Multi-sig wallet support
+### Phase 2: Smart Contract Hardening ✅
+- [x] Automated payment release flows
+- [x] Dispute resolution mechanism (Arbitration)
+- [x] Multi-sig wallet support
 
 ### Phase 3: Enhanced Platform 🔜
 - [ ] On-chain reputation data
