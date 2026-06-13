@@ -1,4 +1,4 @@
-# StellArts 🌟
+# StellArts 
 
 ![StellArts Logo](./Stellarts.png)
 
