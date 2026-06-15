@@ -93,9 +93,8 @@ async def test_redis():
 async def test_database(db: Session = Depends(get_db)):
     """Test database connection"""
     try:
-        # Test basic query (usar text() para SQL directo)
-        result = db.execute(text("SELECT 1 as test"))
-        test_value = result.fetchone()[0]
+        # Test basic query using raw SQL
+        test_value = db.execute(text("SELECT 1 as test")).scalar()
 
         return {
             "database_status": "connected",
